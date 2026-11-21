@@ -1,0 +1,25 @@
+{
+  "name": "doomsday-ready",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "^22.13.0 || >=24.0.0"
+  },
+  "scripts": {
+    "dev": "node --watch server/index.js --dev",
+    "build": "vite build",
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "@fontsource-variable/space-grotesk": "^5.0.0",
+    "@fontsource/barlow-condensed": "^5.0.0",
+    "express": "^5.2.1",
+    "lucide-react": "^0.468.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "vite": "^7.3.1"
+  }
+}
