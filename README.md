@@ -1,3 +1,7 @@
+## Live Demo
+
+**[Doomsday Ready – Try it here](https://blinto-doomsday.onrender.com/)**
+
 # Doomsday Ready
 
 Doomsday Ready helps you decide what to rewatch before an MCU release and find the fewest seat bundles that fit your group exactly on opening night. The frontend uses React. Express serves the JSON API, and SQLite stores movies, prerequisites, cinemas, and bundle sizes.
